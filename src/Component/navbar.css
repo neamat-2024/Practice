@@ -1,0 +1,31 @@
+
+.navmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EB1933;
+  }
+  
+.navmenu li {
+    float: left;
+  }
+  
+.navmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navmenu li a:hover {
+    background-color: #7e2525;
+  }
+.navmenu .active-item{
+    color: #ffffff;
+  }
+.navmenu .pending-item{
+    color: rgb(226, 226, 226);
+
+  }

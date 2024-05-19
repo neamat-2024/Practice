@@ -1,0 +1,108 @@
+.header-content{
+    background-image: url(../assets/Hero.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-section{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.form-check-input:focus{
+    box-shadow:none;
+    border-color: #E91C34;  
+}
+input[type=radio]:checked{
+    background-color: #EB1B34;
+
+}
+
+.search-section .nav-item:checked{
+    background-color: #E91C34;
+    color: #FFFFFF;
+    
+} 
+
+.nav-pills > li > button.active {
+    background-color: #EB1B34 !important;
+}
+.nav-pills > li > button {
+    background-color: #FFF4F6 !important;
+    color: #7C8DB0;
+    border-color: #EB1B34 !important;
+}
+
+.seamless-travel a:hover{
+    color: #EB1B34 !important;
+}
+.explore-places a:hover, i:hover{
+    color: #EB1B34 !important;
+}
+.Explore a:hover{
+    color: #EB1B34 !important;
+}
+
+.flight-deals a:hover{
+    color: #EB1B34 !important;
+
+}
+
+.searchbutton button{
+    padding: 14px 40px;
+    margin-top: -124px;
+    background-color: #EB1B34;
+    color: white;
+    font-size: 16px;
+}
+.searchbutton button:hover{
+    padding: 14px 40px;
+    margin-top: -124px;
+    background-color: #FFFFFF;
+    color: #EB1B34;
+    font-size: 16px;
+    border: 1px solid #EB1B34;
+}
+
+
+
+.form-check-input:focus{
+    box-shadow:none;
+    border-color: #E91C34;  
+}
+input[type=radio]:checked{
+    background-color: #EB1B34;
+
+}
+
+.search-section .nav-item:checked{
+    background-color: #E91C34;
+    color: #FFFFFF;
+    
+} 
+
+.nav-pills > li > button.active {
+    background-color: #EB1B34 !important;
+}
+.nav-pills > li > button {
+    background-color: #FFF4F6 !important;
+    color: #7C8DB0;
+    border-color: #EB1B34 !important;
+}
+
+.seamless-travel a:hover{
+    color: #EB1B34 !important;
+}
+.explore-places a:hover, i:hover{
+    color: #EB1B34 !important;
+}
+.Explore a:hover{
+    color: #EB1B34 !important;
+}
+
+.flight-deals a:hover{
+    color: #EB1B34 !important;
+
+}

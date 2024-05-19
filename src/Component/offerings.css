@@ -1,0 +1,13 @@
+.deal-content{
+    background-color: #E91C34;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.deal-img img{
+    height: 220px;
+    width: 220px;
+}
+.deal-content .p2{
+    margin-left: 150px;
+}
