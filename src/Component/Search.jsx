@@ -2,6 +2,9 @@ import './search.css'
 import {useState} from 'react'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
+import Navbar from './Navbar'
+
+
 const Search = () => {
   const [selectedDate, setSelectedDate] = useState(null);
   
@@ -44,8 +47,6 @@ const Search = () => {
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"/>
                         <label className="form-check-label" for="inlineRadio3">Multicity</label>
                     </div>
-
-                  
 
                     <div className="row mt-4">
                       <div className="col-md-3">

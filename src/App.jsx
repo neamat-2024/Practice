@@ -16,8 +16,8 @@ const App = () => {
     <div className="container">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
-          <Route path="/searchresult/:searchresult" element={<Searchresult/>}/>
+          <Route path="/"element={<Homepage/>}/>
+          <Route path="/searchresult" element={<Searchresult/>}/>
           <Route path="/search" element={<Search/>}/>
           <Route path="/about" element={<Aboutpage/>}/>
           <Route path="/contact" element={<Contact/>}/>
