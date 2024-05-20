@@ -1,4 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
+import DatePicker from 'react-datepicker'
+import 'react-datepicker/dist/react-datepicker.css'
 import './searchresult.css'
 import Navbar from '../../Component/Navbar'
 import Footer from '../../Component/Footer'
@@ -8,6 +10,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 const Search = () => {
   const{searchresult}=useParams();
+  const [selectedDate, setSelectedDate] = useState(null);
   return (
     <div>
         <Navbar/>
@@ -62,10 +65,19 @@ const Search = () => {
                   <div className="row">
                       <div className="col-md-6">
                           <div className="form-floating ">
-                            <select className="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                              <option selected>30 May 24</option>
-                            </select>
-                            <label for="floatingSelectGrid">Departure</label>
+                          <DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} 
+                                placeholderText='Select Your Date'
+                                dateFormat="dd/MM/yyyy"
+                                //minDate={new Date()}
+                                //maxDate={new Date()}
+                                //filterDate={date=>date.getDay()!=6 && date.getDay()!=0}
+                                showYearDropdown
+                                showMonthDropdown
+                                //showTimeSelect
+                                //showTimeSelectOnly
+                                scrollableMonthYearDropdown
+                                className='red-border'
+                               /> 
                           </div> 
                       </div>
                       <div className="col-md-6">
